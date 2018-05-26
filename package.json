@@ -1,0 +1,20 @@
+{
+  "name": "@copart/babel-preset-ops-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Colton Colcleasure <colshacol@gmail.com>",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-flow": "^7.0.0-beta.49",
+    "@babel/preset-react": "^7.0.0-beta.49",
+    "@babel/preset-stage-0": "^7.0.0-beta.49",
+    "@babel/runtime": "^7.0.0-beta.49",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-jsx-control-statements": "^3.2.8",
+    "babel-plugin-module-resolver": "^3.1.1"
+  },
+  "peerDependencies": {
+    "@babel/core": "7.0.0-beta.48"
+  }
+}
