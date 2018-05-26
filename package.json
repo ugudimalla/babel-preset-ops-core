@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Colton Colcleasure <colshacol@gmail.com>",
+  "scripts": {
+    "precommit": "pretty-quick --staged"
+  },
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.0.0-beta.49",
     "@babel/preset-env": "^7.0.0-beta.49",
@@ -12,7 +15,10 @@
     "@babel/runtime": "^7.0.0-beta.49",
     "babel-plugin-dev-expression": "^0.2.1",
     "babel-plugin-jsx-control-statements": "^3.2.8",
-    "babel-plugin-module-resolver": "^3.1.1"
+    "babel-plugin-module-resolver": "^3.1.1",
+    "husky": "^0.14.3",
+    "prettier": "^1.12.1",
+    "pretty-quick": "^1.6.0"
   },
   "peerDependencies": {
     "@babel/core": "7.0.0-beta.48"
